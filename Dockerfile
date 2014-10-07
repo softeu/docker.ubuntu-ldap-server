@@ -11,7 +11,7 @@ COPY run-ldap.sh /
 COPY ./copy/ /etc/ssl/certs/
 
 
-VOLUME ["/var/lib/ldap/",   "/var/lib/slapd/", "/etc/slapd/" ]
+#VOLUME ["/var/lib/ldap/",   "/var/lib/slapd/", "/etc/slapd/" ]
 
 
 
