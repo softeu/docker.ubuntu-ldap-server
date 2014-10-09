@@ -16,6 +16,7 @@ COPY ./copy/ /etc/ssl/certs/
 
 
 EXPOSE 389
+EXPOSE 636
 
 WORKDIR /var/lib
 
